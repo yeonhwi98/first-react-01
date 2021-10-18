@@ -2,9 +2,13 @@
 // import { ClassComponent } from "./02.component/ClassComponent";
 // import { FnComponent } from "./02.component/FnComponent";
 // import { Food } from "./02.component/Food";
-import Kakao from "./03.map/Kakao";
-import { MapFn } from "./03.map/MapFn";
-import "./style.css";
+// import Kakao from "./03.map/Kakao";
+// import { MapFn } from "./03.map/MapFn";
+// import "./style.css";
+
+// import { BaseStyle } from "./04.styledComponent/BaseStyle";
+import { StyledCom } from "./04.styledComponent/StyledCom";
+import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 
 // const foods = [
 //   {
@@ -32,7 +36,12 @@ function App() {
       <Food menu={foods}></Food> */}
 
       {/* *2일차 */}
-      <Kakao></Kakao>
+      {/* <Kakao></Kakao> */}
+
+      {/* 4일차 */}
+      {/* <BaseStyle></BaseStyle> */}
+      <GlobalStyle></GlobalStyle>
+      <StyledCom></StyledCom>
     </>
   );
 }

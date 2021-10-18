@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.con {
+  width: 350px;
+  border: 3px solid black;
+}
+
+.bgImg {
+  width: 100%;
+  /* 이미지 들어가니 가로값 */
+  height: 350px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLSbTFJGTFwTPCFIrSbz_neC9Dmv9BG0Z9tA&usqp=CAU)
+    no-repeat center / cover;
+}
+
+.items {
+  padding: 20px;
+}
+
+.itmes h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.items p {
+  opacity: 0.7;
+}
