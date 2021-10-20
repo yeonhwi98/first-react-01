@@ -7,8 +7,9 @@
 // import "./style.css";
 
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
-import { StyledCom } from "./04.styledComponent/StyledCom";
+// import { StyledCom } from "./04.styledComponent/StyledCom";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
+import { StyledCon } from "./05.Content/StyledCon";
 
 // const foods = [
 //   {
@@ -40,8 +41,12 @@ function App() {
 
       {/* 4일차 */}
       {/* <BaseStyle></BaseStyle> */}
+      {/* <GlobalStyle></GlobalStyle>
+      <StyledCom></StyledCom> */}
+
+      {/* 5일차 */}
       <GlobalStyle></GlobalStyle>
-      <StyledCom></StyledCom>
+      <StyledCon></StyledCon>
     </>
   );
 }
