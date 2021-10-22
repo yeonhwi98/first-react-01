@@ -1,11 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
-const dark = false;
+const dark = true;
 
 export const MainColor = {
   fontColor: "teal",
   subColor: "red",
+};
+
+export const Icons = {
+  double: <i class="fas fa-angle-double-down"></i>,
+  menu: <i class="fas fa-ellipsis-h"></i>,
+  random: <i class="fas fa-random"></i>,
 };
 
 export const GlobalStyle = createGlobalStyle`

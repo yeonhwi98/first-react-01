@@ -11,9 +11,9 @@ import {
   Desc,
   ItemWrap,
 } from "./styles/ContentStyle";
+
 export const StyledCon = () => {
   const { fontColor, bgColor } = DarkMode;
-  console.log(fontColor, bgColor);
 
   return (
     <Wrap bgColor={bgColor}>

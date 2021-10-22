@@ -6,10 +6,13 @@
 // import { MapFn } from "./03.map/MapFn";
 // import "./style.css";
 
+import { Music } from "./06.MusicApp/Music";
+
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
 // import { StyledCom } from "./04.styledComponent/StyledCom";
+
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
-import { StyledCon } from "./05.Content/StyledCon";
+// import { StyledCon } from "./05.Content/StyledCon";
 
 // const foods = [
 //   {
@@ -28,7 +31,9 @@ import { StyledCon } from "./05.Content/StyledCon";
 function App() {
   return (
     <>
+      <GlobalStyle></GlobalStyle>
       {/*1일차  */}
+
       {/* <div>안녕!</div>
       <div>안녕!</div>
       <input type="text" /> */}
@@ -45,8 +50,11 @@ function App() {
       <StyledCom></StyledCom> */}
 
       {/* 5일차 */}
-      <GlobalStyle></GlobalStyle>
-      <StyledCon></StyledCon>
+
+      {/* <StyledCon></StyledCon>  */}
+
+      {/* 6일차 */}
+      <Music />
     </>
   );
 }
