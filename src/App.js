@@ -6,13 +6,16 @@
 // import { MapFn } from "./03.map/MapFn";
 // import "./style.css";
 
-import { Music } from "./06.MusicApp/Music";
+// import { Music } from "./06.MusicApp/Music";
+import { ClassEvent } from "./07. Event/ClassEvent";
 
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
 // import { StyledCom } from "./04.styledComponent/StyledCom";
 
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { StyledCon } from "./05.Content/StyledCon";
+// import { FnEvent } from "./07. Event/FnEvent";
+import { ColorEvent } from "./07. Event/ColorEvent";
 
 // const foods = [
 //   {
@@ -54,7 +57,10 @@ function App() {
       {/* <StyledCon></StyledCon>  */}
 
       {/* 6일차 */}
-      <Music />
+      {/* <Music /> */}
+      {/* <ClassEvent></ClassEvent> */}
+      {/* <FnEvent></FnEvent> */}
+      <ColorEvent></ColorEvent>
     </>
   );
 }

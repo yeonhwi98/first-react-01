@@ -1,7 +1,12 @@
 import styled from "styled-components";
 import { Icons } from "../../GlobalStyled/GlobalStyle";
 
-const SPlayBtn = styled.div``;
+const SPlayBtn = styled.div`
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+`;
 const Items = styled.div``;
 
 export const PlayBtn = () => {

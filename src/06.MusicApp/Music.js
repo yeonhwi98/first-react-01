@@ -3,8 +3,8 @@ import { Header } from "./components/Header";
 import { PlayBarWrap } from "./components/PlayBarWrap";
 import { PlayBtn } from "./components/PlayBtn";
 import { TitleWrap } from "./components/TitleWrap";
-import styled from "styled-components";
 import { UserWrap } from "./components/UserWrap";
+import styled from "styled-components";
 
 const Wrap = styled.div`
   height: 100vh;

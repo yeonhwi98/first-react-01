@@ -12,8 +12,8 @@ const Title = styled.div`
   margin-bottom: 5px;
 `;
 const subTitle = styled.div`
-  font-size: 14px;
-  opacity: 0.5;
+  font-size: 9px;
+  opacity: 0.6;
 `;
 
 export const TitleWrap = ({ title, subTitle }) => {
