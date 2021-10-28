@@ -7,7 +7,8 @@
 // import "./style.css";
 
 // import { Music } from "./06.MusicApp/Music";
-import { ClassEvent } from "./07. Event/ClassEvent";
+// import { ClassEvent } from "./07. Event/ClassEvent";
+// import { PopupEvent } from "./07. Event/PopupEvent";
 
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
 // import { StyledCom } from "./04.styledComponent/StyledCom";
@@ -15,7 +16,10 @@ import { ClassEvent } from "./07. Event/ClassEvent";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { StyledCon } from "./05.Content/StyledCon";
 // import { FnEvent } from "./07. Event/FnEvent";
-import { ColorEvent } from "./07. Event/ColorEvent";
+// import { ColorEvent } from "./07. Event/ColorEvent";
+// import { AniEvent } from "./07. Event/AniEvent";
+// import { AnimationEvent } from "./07. Event/AnimationEvent";
+import { UseRoute } from "./08.Router/UseRoute";
 
 // const foods = [
 //   {
@@ -60,7 +64,11 @@ function App() {
       {/* <Music /> */}
       {/* <ClassEvent></ClassEvent> */}
       {/* <FnEvent></FnEvent> */}
-      <ColorEvent></ColorEvent>
+      {/* <ColorEvent></ColorEvent> */}
+      {/* <AniEvent></AniEvent> */}
+      {/* <PopupEvent></PopupEvent> */}
+      {/* <AnimationEvent></AnimationEvent> */}
+      <UseRoute></UseRoute>
     </>
   );
 }
