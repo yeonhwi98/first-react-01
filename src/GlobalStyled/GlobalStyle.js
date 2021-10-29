@@ -18,6 +18,12 @@ export const GlobalStyle = createGlobalStyle`
     ${reset}
     *{
         box-sizing:border-box;
+        
+    }
+
+    a{
+      text-decoration:none;
+        color: black;
     }
 
     body{

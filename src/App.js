@@ -13,13 +13,15 @@
 // import { BaseStyle } from "./04.styledComponent/BaseStyle";
 // import { StyledCom } from "./04.styledComponent/StyledCom";
 
+// import { Route } from "./09.BaseWeb/BaseWebRoute";
+import { BaseWebRoute } from "./09.BaseWeb/BaseWebRoute";
 import { GlobalStyle } from "./GlobalStyled/GlobalStyle";
 // import { StyledCon } from "./05.Content/StyledCon";
 // import { FnEvent } from "./07. Event/FnEvent";
 // import { ColorEvent } from "./07. Event/ColorEvent";
 // import { AniEvent } from "./07. Event/AniEvent";
 // import { AnimationEvent } from "./07. Event/AnimationEvent";
-import { UseRoute } from "./08.Router/UseRoute";
+// import { UseRoute } from "./08.Router/UseRoute";
 
 // const foods = [
 //   {
@@ -68,7 +70,8 @@ function App() {
       {/* <AniEvent></AniEvent> */}
       {/* <PopupEvent></PopupEvent> */}
       {/* <AnimationEvent></AnimationEvent> */}
-      <UseRoute></UseRoute>
+      {/* <UseRoute></UseRoute> */}
+      <BaseWebRoute></BaseWebRoute>
     </>
   );
 }
